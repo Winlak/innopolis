@@ -13,15 +13,18 @@
 
 
 
-x,y = 1,2 #global
-def one():
-    global x,y
-    d = x + y
-    #d - local
-    print(d)
+# x,y = 1,2 #global
+# def one():
+#     global x,y
+#     d = x + y
+#     #d - local
+#     print(d)
+#
+# one()
+#
+# def two():
+#     a,b = 3,4 #local
+#     print(a+b)
 
-one()
 
-def two():
-    a,b = 3,4 #local
-    print(a+b)
+
